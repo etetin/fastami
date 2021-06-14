@@ -2,5 +2,5 @@
 
 set -e
 
-docker build --no-cache  -t "etetin/fastami:latest" --file "./docker-files/Dockerfile" .
+sh ./build.sh
 docker push etetin/fastami:latest

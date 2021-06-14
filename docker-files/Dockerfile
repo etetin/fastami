@@ -12,5 +12,6 @@ RUN chmod +x /start.sh
 COPY /app /app
 WORKDIR /app
 
-ENTRYPOINT ["/start.sh"]
 EXPOSE 80
+
+CMD /start.sh
